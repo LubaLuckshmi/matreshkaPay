@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		84A359D22BAB383600F94BDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A359D12BAB383600F94BDA /* AppDelegate.swift */; };
 		84A359D42BAB383600F94BDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A359D32BAB383600F94BDA /* SceneDelegate.swift */; };
-		84A359D62BAB383700F94BDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A359D52BAB383600F94BDA /* ViewController.swift */; };
 		84A359D92BAB383700F94BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A359D72BAB383700F94BDA /* Main.storyboard */; };
 		84A359DB2BAB384200F94BDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A359DA2BAB384200F94BDA /* Assets.xcassets */; };
 		84A359DE2BAB384200F94BDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A359DC2BAB384200F94BDA /* LaunchScreen.storyboard */; };
 		84A359E62BAC31A400F94BDA /* data.xml in Resources */ = {isa = PBXBuildFile; fileRef = 84A359E52BAC31A300F94BDA /* data.xml */; };
+		84A359E82BAC330600F94BDA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A359E72BAC330500F94BDA /* Model.swift */; };
+		84A359EA2BAC5A4700F94BDA /* CoursesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A359E92BAC5A4600F94BDA /* CoursesController.swift */; };
+		84AF9DC92BACBD7D00B8C929 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF9DC82BACBD7D00B8C929 /* SettingsController.swift */; };
+		84AF9DCB2BACD61C00B8C929 /* ConverterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF9DCA2BACD61B00B8C929 /* ConverterController.swift */; };
+		84AF9DCD2BACE67900B8C929 /* SelectCurrencyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF9DCC2BACE67800B8C929 /* SelectCurrencyController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84A359CE2BAB383600F94BDA /* MatreshkaPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatreshkaPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A359D12BAB383600F94BDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84A359D32BAB383600F94BDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84A359D52BAB383600F94BDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84A359D82BAB383700F94BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84A359DA2BAB384200F94BDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A359DD2BAB384200F94BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A359DF2BAB384200F94BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84A359E52BAC31A300F94BDA /* data.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = data.xml; sourceTree = "<group>"; };
+		84A359E72BAC330500F94BDA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		84A359E92BAC5A4600F94BDA /* CoursesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesController.swift; sourceTree = "<group>"; };
+		84AF9DC82BACBD7D00B8C929 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		84AF9DCA2BACD61B00B8C929 /* ConverterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterController.swift; sourceTree = "<group>"; };
+		84AF9DCC2BACE67800B8C929 /* SelectCurrencyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCurrencyController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +68,16 @@
 			children = (
 				84A359D12BAB383600F94BDA /* AppDelegate.swift */,
 				84A359D32BAB383600F94BDA /* SceneDelegate.swift */,
-				84A359D52BAB383600F94BDA /* ViewController.swift */,
 				84A359D72BAB383700F94BDA /* Main.storyboard */,
+				84AF9DCC2BACE67800B8C929 /* SelectCurrencyController.swift */,
+				84A359E92BAC5A4600F94BDA /* CoursesController.swift */,
+				84AF9DCA2BACD61B00B8C929 /* ConverterController.swift */,
+				84AF9DC82BACBD7D00B8C929 /* SettingsController.swift */,
 				84A359DA2BAB384200F94BDA /* Assets.xcassets */,
 				84A359DC2BAB384200F94BDA /* LaunchScreen.storyboard */,
 				84A359DF2BAB384200F94BDA /* Info.plist */,
 				84A359E52BAC31A300F94BDA /* data.xml */,
+				84A359E72BAC330500F94BDA /* Model.swift */,
 			);
 			path = MatreshkaPay;
 			sourceTree = "<group>";
@@ -142,9 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A359D62BAB383700F94BDA /* ViewController.swift in Sources */,
 				84A359D22BAB383600F94BDA /* AppDelegate.swift in Sources */,
+				84AF9DCD2BACE67900B8C929 /* SelectCurrencyController.swift in Sources */,
 				84A359D42BAB383600F94BDA /* SceneDelegate.swift in Sources */,
+				84A359EA2BAC5A4700F94BDA /* CoursesController.swift in Sources */,
+				84AF9DC92BACBD7D00B8C929 /* SettingsController.swift in Sources */,
+				84AF9DCB2BACD61C00B8C929 /* ConverterController.swift in Sources */,
+				84A359E82BAC330600F94BDA /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +314,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MatreshkaPay/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -325,6 +343,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MatreshkaPay/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
